@@ -1,14 +1,15 @@
 import "./App.css";
+import Weather from "./Weather";
+import Footer from "./Footer";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Hello World</h1>
-        <p>It is raining today</p>
-      </header>
+      <h1>Weather Search Engine</h1>
+      <Weather />
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 }
-
-export default App;
