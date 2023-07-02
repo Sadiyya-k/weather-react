@@ -7,7 +7,7 @@ export default function Footer() {
       <footer>
         <a
           href="https://github.com/Sadiyya-k/weather-react"
-          rel="noopener"
+          rel="noreferrer"
           target="_blank"
         >
           Open-source code
