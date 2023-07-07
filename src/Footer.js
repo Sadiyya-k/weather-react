@@ -3,16 +3,16 @@ import "./App.css";
 
 export default function Footer() {
   return (
-    <div>
+    <div className="Footer">
       <footer>
+        This project was coded by Sadiyya Khan and is {""}
         <a
           href="https://github.com/Sadiyya-k/weather-react"
           rel="noreferrer"
           target="_blank"
         >
-          Open-source code
+          open-source on Github
         </a>
-        , by Sadiyya Khan
       </footer>
     </div>
   );
