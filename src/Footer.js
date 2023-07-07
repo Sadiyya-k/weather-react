@@ -3,7 +3,7 @@ import "./App.css";
 
 export default function Footer() {
   return (
-    <div className="Footer">
+    <div>
       <footer>
         This project was coded by Sadiyya Khan and is {""}
         <a
