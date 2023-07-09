@@ -7,6 +7,7 @@ import "./index.css";
 export default function Weather(props) {
   const [country, setCountry] = useState(props.defaultCountry);
   const [weatherData, setWeatherData] = useState({ ready: false });
+
   function handleResponse(response) {
     setWeatherData({
       ready: true,
@@ -44,7 +45,7 @@ export default function Weather(props) {
             <div className="col-9">
               <input
                 type="search"
-                placeholder="Search city..."
+                placeholder="Search..."
                 className="form-control"
                 autoFocus="on"
                 onChange={handleCountryChange}
@@ -53,7 +54,6 @@ export default function Weather(props) {
             <div className="col-3">
               <input
                 type="submit"
-                s
                 value="Search"
                 className="btn btn-primary w-100"
               />
