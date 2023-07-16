@@ -47,8 +47,8 @@
 }
 
 .Weather input {
-  background-color: rgb(255, 255, 255, 0.25);
-  border: 1.5px solid #96adcf;
+  background-color: rgb(255, 255, 255, 0.15);
+  border: 2px solid whitesmoke;
 }
 
 .Weather input:focus {
