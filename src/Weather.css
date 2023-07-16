@@ -47,8 +47,8 @@
 }
 
 .Weather input {
-  background-color: #b5c6e0;
-  border: 2px solid whitesmoke;
+  background-color: rgb(255, 255, 255, 0.25);
+  border: 1.5px solid #96adcf;
 }
 
 .Weather input:focus {
@@ -57,7 +57,7 @@
 }
 
 .Weather ::placeholder {
-  color: whitesmoke;
+  color: rgb(255, 255, 255, 9);
   letter-spacing: 1px;
 }
 
