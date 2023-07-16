@@ -1,9 +1,35 @@
 .App {
   max-width: 600px;
-  margin: 30px auto;
+  margin: 70px auto;
+  border-radius: 10px;
+  padding: 8px;
+}
+
+.App h1 {
+  text-align: center;
+  font-size: 30px;
+  color: #96adcf;
+  letter-spacing: 1px;
+  margin-bottom: 0;
 }
 
 .App footer {
   font-size: 12px;
-  margin: 12px 0;
+  margin: 1px 0 0 19px;
+  font-weight: 200;
+  color: #536299;
+  letter-spacing: 0.6px;
+}
+
+.App a {
+  color: rgb(245, 245, 245, 0.8);
+  text-decoration: none;
+}
+
+.App a:hover {
+  color: #536299;
+}
+
+.App .github {
+  letter-spacing: 0.2rem;
 }

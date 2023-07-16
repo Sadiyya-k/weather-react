@@ -25,7 +25,7 @@ export default function FormattedData(props) {
 
   return (
     <div>
-      {day} {hours}:{minutes};
+      {day} {hours}:{minutes}
     </div>
   );
 }

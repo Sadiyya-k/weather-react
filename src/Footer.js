@@ -5,13 +5,13 @@ export default function Footer() {
   return (
     <div>
       <footer>
-        This project was coded by Sadiyya Khan and is {""}
+        Coded by Sadiyya Khan open-source on {""}
         <a
           href="https://github.com/Sadiyya-k/weather-react"
           rel="noreferrer"
           target="_blank"
         >
-          open-source on Github
+          <span className="github">Github</span>
         </a>
       </footer>
     </div>

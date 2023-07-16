@@ -1,52 +1,115 @@
 .Weather {
-  border: 1px solid #dadde1;
-  color: rgb(135, 135, 135);
   padding: 16px;
   border-radius: 4px;
+  letter-spacing: 1px;
 }
 
 .Weather h1 {
-  font-size: 24px;
-  font-weight: 100;
-  margin: 20px 0 0 0;
+  font-size: 45px;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: -6px;
   line-height: 29px;
+  text-align: center;
+  color: whitesmoke;
+  padding: 8px;
+}
+
+.Weather a {
+  color: whitesmoke;
+  text-decoration: underline;
 }
 
 .Weather ul {
-  margin: 0;
   padding: 0;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: center;
 }
 
 .Weather li {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 100;
-  line-height: 19px;
+  line-height: 23px;
   list-style: none;
+  color: whitesmoke;
 }
 
 .Weather canvas {
   margin: 0 auto;
 }
 
+.Weather form {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #a6b9d9;
+  margin-top: -8px;
+}
+
+.Weather input {
+  background-color: #b5c6e0;
+  border: 2px solid whitesmoke;
+}
+
+.Weather input:focus {
+  background-color: #b5c6e0;
+  border: 2px solid whitesmoke;
+}
+
+.Weather ::placeholder {
+  color: whitesmoke;
+  letter-spacing: 1px;
+}
+
+.Weather .btn {
+  background-color: #96adcf;
+  color: white;
+  letter-spacing: 1px;
+}
+
 .Weather .float-left {
-  float: left !important;
+  float: left;
+}
+
+.Weather .icon {
+  margin-left: 200px;
 }
 
 .Weather .temperature {
   font-weight: bold;
-  color: rgb(33, 33, 33);
+  color: whitesmoke;
   font-size: 55px;
   line-height: 64px;
-  margin-left: 5px;
   font-weight: 400;
-  margin-left: 10px;
+  margin-left: -15px;
 }
 
 .Weather .unit {
   color: rgb(33, 33, 33);
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 20px;
+  font-weight: 600;
   position: relative;
   line-height: 1;
   top: -34px;
+  color: whitesmoke;
+}
+
+.Weather .celsiusSymbol {
+  font-weight: 700;
+}
+
+.Weather .left-description {
+  background-color: #a7b8d9;
+  max-width: 80%;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.Weather .right-description {
+  background-color: #a7b8d9;
+  max-width: 80%;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 5px;
 }
